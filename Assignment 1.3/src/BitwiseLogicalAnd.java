@@ -1,8 +1,8 @@
-import java.util.Scanner; //importing Scanner class to take data from the user
+import java.util.*; //importing Scanner class to take data from the user
 
 public class BitwiseLogicalAnd {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {    //main method
 		
 		byte num1, num2;   //initialization of the variable in byte 
 		Scanner sc = new Scanner(System.in);   //creating of scanner object
@@ -30,8 +30,8 @@ public class BitwiseLogicalAnd {
 		}
 		
 		System.out.println("*********Truth Table for Bitwise and Logicl AND*********");
-		System.out.println(num1+ " & " +num2+ " = "+(num1&num2));
-		System.out.println(b1+ " & " +b2+ " = " +(b1&b2));
+		System.out.println(num1+ " & " +num2+ " = "+(num1&num2));	//printing the output for bitwise AND
+		System.out.println(b1+ " & " +b2+ " = " +(b1&b2));		//printing the output for logical AND
 		
 	}
 
